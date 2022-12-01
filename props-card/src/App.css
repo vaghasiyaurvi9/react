@@ -1,0 +1,21 @@
+.box{
+    color: brown;
+    background-color: black;
+    margin-left:100px;
+    /* display: inline; */
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.zoom:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.zoom{
+    transition: .5s;
+}
+.parent{
+    overflow: hidden;
+}
